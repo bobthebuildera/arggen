@@ -77,11 +77,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "ARG Generators LLC — Generadores en Puerto Rico" },
       { name: "description", content: "Venta, instalación y mantenimiento de generadores en Puerto Rico. Más de 15 años de experiencia certificada. Servicio 24/7." },
       { name: "author", content: "ARG Generators LLC" },
-      { property: "og:title", content: "ARG Generators LLC — Energía sin interrupciones" },
-      { property: "og:description", content: "Técnicos certificados con más de 15 años de experiencia en la industria de los generadores. San Juan, Puerto Rico." },
+      { property: "og:title", content: "ARG Generators LLC — Generadores en Puerto Rico" },
+      { property: "og:description", content: "Venta, instalación y mantenimiento de generadores en Puerto Rico. Más de 15 años de experiencia certificada. Servicio 24/7." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "ARG Generators LLC — Generadores en Puerto Rico" },
+      { name: "twitter:description", content: "Venta, instalación y mantenimiento de generadores en Puerto Rico. Más de 15 años de experiencia certificada. Servicio 24/7." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/61a38ab4-552c-4bd2-884a-8183d0142468/id-preview-f6af0fca--cd270462-e0c8-42c9-b503-aad63b3e3275.lovable.app-1778202055787.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/61a38ab4-552c-4bd2-884a-8183d0142468/id-preview-f6af0fca--cd270462-e0c8-42c9-b503-aad63b3e3275.lovable.app-1778202055787.png" },
     ],
     links: [
       {
