@@ -89,7 +89,7 @@ function Home() {
                 className="inline-flex items-center gap-2 border border-foreground/20 px-6 py-3.5 text-sm font-bold uppercase tracking-wider hover:bg-foreground/5 transition"
               >
                 <Phone className="h-4 w-4" strokeWidth={3} />
-                Llamar 787-516-6454
+                Llamar
               </a>
             </motion.div>
 
