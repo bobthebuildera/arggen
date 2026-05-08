@@ -6,12 +6,12 @@ import logo from "@/assets/logo.jpg";
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
 
-  const navLinks = [
+  const navLinks: { to: "/" | "/servicios" | "/nosotros" | "/contacto"; label: string; exact?: boolean }[] = [
     { to: "/", label: "Inicio", exact: true },
     { to: "/servicios", label: "Servicios" },
     { to: "/nosotros", label: "Nosotros" },
     { to: "/contacto", label: "Contacto" },
-  ] as const;
+  ];
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-lg">
