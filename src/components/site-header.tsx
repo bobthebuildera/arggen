@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { Phone, Menu, X } from "lucide-react";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo.png";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
