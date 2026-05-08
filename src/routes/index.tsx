@@ -84,7 +84,7 @@ function Home() {
                 <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition" strokeWidth={3} />
               </Link>
               <a
-                href="tel:+17875551234"
+                href="tel:+17875166454"
                 className="inline-flex items-center gap-2 border border-foreground/20 px-6 py-3.5 text-sm font-bold uppercase tracking-wider hover:bg-foreground/5 transition"
               >
                 <Phone className="h-4 w-4" strokeWidth={3} />
