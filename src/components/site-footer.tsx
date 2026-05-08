@@ -31,7 +31,7 @@ export function SiteFooter() {
           <h4 className="text-xs mb-4 text-primary">Contacto</h4>
           <ul className="space-y-3 text-sm text-muted-foreground">
             <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> arggenerators@gmail.com</li>
-            <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> San Juan, Puerto Rico</li>
+            <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> Cataño, Puerto Rico</li>
             <li className="flex items-center gap-2"><Instagram className="h-4 w-4 text-primary" /> @a.r.g.generators</li>
           </ul>
         </div>

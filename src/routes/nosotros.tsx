@@ -31,7 +31,7 @@ function Nosotros() {
             <div className="text-xs uppercase tracking-[0.3em] text-primary mb-3">Nosotros</div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl text-balance">15 años. Una misión: <span className="text-primary">no dejarte a oscuras</span>.</h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-xl">
-              ARG Generators LLC nace en San Juan, Puerto Rico, con un objetivo simple: ofrecer a la isla un servicio de generadores honesto, técnico y disponible cuando hace falta.
+              ARG Generators LLC nace en Cataño, Puerto Rico, con un objetivo simple: ofrecer a la isla un servicio de generadores honesto, técnico y disponible cuando hace falta.
             </p>
           </div>
           <div className="relative aspect-[4/5] overflow-hidden">
