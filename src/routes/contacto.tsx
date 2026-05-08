@@ -8,7 +8,7 @@ export const Route = createFileRoute("/contacto")({
       { title: "Contacto — ARG Generators LLC" },
       { name: "description", content: "Contáctanos para venta, instalación o mantenimiento de generadores en Puerto Rico. arggenerators@gmail.com" },
       { property: "og:title", content: "Contacto — ARG Generators LLC" },
-      { property: "og:description", content: "Estamos disponibles 24/7 en San Juan, Puerto Rico." },
+      { property: "og:description", content: "Estamos disponibles 24/7 en Cataño, Puerto Rico." },
     ],
   }),
   component: Contacto,
@@ -95,7 +95,7 @@ function Contacto() {
               <MapPin className="h-6 w-6 text-primary flex-shrink-0 mt-1" strokeWidth={2.5} />
               <div>
                 <div className="text-xs uppercase tracking-wider text-muted-foreground">Ubicación</div>
-                <div className="font-display mt-1">San Juan, Puerto Rico</div>
+                <div className="font-display mt-1">Cataño, Puerto Rico</div>
               </div>
             </div>
             <a href="https://instagram.com/a.r.g.generators" target="_blank" rel="noreferrer" className="flex items-start gap-4 p-6 bg-surface border border-border hover:border-primary transition group">

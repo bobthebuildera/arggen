@@ -8,7 +8,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "ARG Generators LLC — Generadores en Puerto Rico" },
-      { name: "description", content: "Venta, instalación y mantenimiento certificado de generadores residenciales y comerciales. San Juan, PR. 15+ años de experiencia." },
+      { name: "description", content: "Venta, instalación y mantenimiento certificado de generadores residenciales y comerciales. Cataño, PR. 15+ años de experiencia." },
       { property: "og:title", content: "ARG Generators LLC — Energía sin interrupciones" },
       { property: "og:description", content: "Técnicos certificados con más de 15 años de experiencia." },
     ],
@@ -48,7 +48,7 @@ function Home() {
               className="inline-flex items-center gap-2 border border-primary/40 bg-primary/10 px-3 py-1 text-xs uppercase tracking-[0.2em] text-primary mb-6"
             >
               <span className="h-1.5 w-1.5 bg-primary animate-pulse" />
-              San Juan · Puerto Rico
+              Cataño · Puerto Rico
             </motion.div>
 
             <motion.h1
