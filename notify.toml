@@ -2,6 +2,7 @@
   command = "bun run build"
   publish = "dist/client"
 
-[[edge_functions]]
-  function = "server"
-  path = "/*"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
